@@ -206,3 +206,6 @@ In Go, there is an additional pitfall in the semantics of interfaces in combinat
 structs. Based on this, I recommend to avoid embedding structs in general, especially for imported
 packages, and to always be explicit about which methods and fields you access. This way, additions
 to the embedded structs are much less likely to inadvertently change the behavior of your program.
+
+For package maintainers, I recommend to bump the major version when adding methods that implement
+well-known interfaces from the stdlib or from popular non-stdlib packages.
