@@ -217,5 +217,15 @@ structs. Based on this, I recommend to avoid embedding structs in general, espec
 packages, and to always be explicit about which methods and fields you access. This way, additions
 to the embedded structs are much less likely to inadvertently change the behavior of your program.
 
+In the above example, this would mean:
+
+{% highlight Go %}
+type ExtendedCar struct {
+	Car *Car
+	Weight int
+}
+{% endhighlight %}
+
+
 For package maintainers, I recommend to bump the major version when adding methods that implement
 well-known interfaces from the stdlib or from popular non-stdlib packages.
