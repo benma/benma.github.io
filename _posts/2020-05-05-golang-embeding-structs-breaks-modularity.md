@@ -68,6 +68,11 @@ There is a downstream app using it like this, which embeds `Car` and serializes 
 
 import "car"
 
+type ExtendedCar struct {
+	*Car
+	Weight int
+}
+
 func main() {
 	myRide := &ExtendedCar{
 		Car:    car.MakeDeLorean(),
@@ -142,6 +147,11 @@ driving:
 // app, using car.go v1.1.0
 
 import "car"
+
+type ExtendedCar struct {
+	*Car
+	Weight int
+}
 
 func main() {
 	myRide := &ExtendedCar{
