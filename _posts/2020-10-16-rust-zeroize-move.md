@@ -122,9 +122,9 @@ fn main() {
 ```
 Output:
 ```
-Using key to encrypt stuff: EncryptionKey(Zeroizing([65, 75, 101, 121]))
+Using key to encrypt stuff: EncryptionKey([65, 75, 101, 121])
 About to drop.
-Zeroed. Remaining value: Zeroizing([0, 0, 0, 0])
+Zeroed. Remaining value: [0, 0, 0, 0]
 Dropped.
 Memory: [65, 75, 101, 121]
 ```
