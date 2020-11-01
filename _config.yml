@@ -30,6 +30,7 @@ github_username:  benma
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-twitter-plugin
 
 google_analytics: UA-154552900-1
 
