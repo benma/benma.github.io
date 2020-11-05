@@ -65,7 +65,7 @@ e.g. Electrum.
 
 A compromised computer wallet can provide fake cosigner xpubs to the hardware wallet. For example,
 in a 2-of-3 multisig, the compromised wallet will provide two xpubs controlled by the
-attacker. After verifying the compromised receive adddress, any funds sent to it belong to the
+attacker. After verifying the compromised receive address, any funds sent to it belong to the
 attacker.
 
 A common security measure people do is to test the multisig setup first: receive a small amount,
