@@ -124,7 +124,7 @@ Table of common obstacles. Each of the entries is explained in more detail below
 
 |                                               | BitBox02 | Ledger | Trezor | Coldcard |
 |-----------------------------------------------|----------|--------|--------|----------|
-| Display own xpub on demand                    | ✅       | ❌     | ❌     | ❌       |
+| Display own xpub on demand                    | ✅       | ❌     | ❌     | ✅       |
 | Display cosigner xpubs                        | ✅       | ❌     | ✅     | ✅       |
 | Show Electrum `Zpub...` and `Ypub...` formats | ✅       | ❌     | ❌     | ❌       |
 | Register xpubs inside the device              | ✅       | ❌     | ❌     | ✅       |
@@ -140,7 +140,10 @@ you can click the eye icon to verify the xpub on the BitBox02 display:
 It is important to verify the xpub displayed on the hardware wallet against the physical printout,
 not against what is shown in the computer wallet.
 
-As far as I know, no hardware wallet other than the BitBox02 provides this function.
+As far as I know, only the BitBox02 and Coldcard provide this function. In the Coldcard, it possible
+like this: Go to `Advanced -> View Identity`. Make a note of the master key fingerprint. Then in
+`Settings -> Multisig Wallets -> <wallet> -> View Details`, you can find the Coldcard's xpub below
+the device fingerprint.
 
 **Display cosigner xpubs**
 
@@ -161,8 +164,7 @@ However, it does not indicate which of the xpubs belongs to the Trezor itself. M
 that the xpubs are hidden behind the QR-code, which in my opinion is not discoverable. I fear that
 due to this, next to no Trezor user makes use of this important feature.
 
-The Coldcard shows them during the setup of a multisig account. Like the Trezor, there is no
-indication which of the displayed xpubs actually belongs to the Coldcard itself.
+The Coldcard shows them during the setup of a multisig account.
 
 The big issue in general is that it is not clear what to compare the xpubs against. Let's say you
 have a Trezor, a Ledger and a Coldcard in a multisig setup. All three xpubs are shown by the
