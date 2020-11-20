@@ -160,9 +160,8 @@ clicking on `QR` and then on `XPUBs` when verifying a receive address:
 
 ![Trezor xpubs verification](/assets/img/trezor_xpubs.gif)
 
-However, it does not indicate which of the xpubs belongs to the Trezor itself. More problematic is
-that the xpubs are hidden behind the QR-code, which in my opinion is not discoverable. I fear that
-due to this, next to no Trezor user makes use of this important feature.
+Problematic is that the xpubs are hidden behind the QR-code, which in my opinion is not
+discoverable. I fear that due to this, next to no Trezor user makes use of this important feature.
 
 The Coldcard shows them during the setup of a multisig account.
 
