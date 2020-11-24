@@ -108,3 +108,5 @@ responsibly disclosed the issue to the Coldcard team.
   and gave notice that we would release our disclosure soon. Coinkite informed that the release
   would be further delayed, but imminent, as additional items were being included.
 - On Nov 21st, we informed Coinkite that we would publish our disclosure on Nov 24th.
+- On Nov 23rd, Coldcard published a BETA version of the next firmware with the fix inlucded:
+  [https://github.com/Coldcard/firmware/tree/master/releases](https://github.com/Coldcard/firmware/tree/master/releases)
