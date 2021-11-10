@@ -21,6 +21,10 @@ Trezor released a fix in Trezor One v1.9.3 and in Model T v2.3.3 on September 2n
 I have been in regular contact with a KeepKey representative. They didn't slate a fix for
 development yet, stating that they are working on higher priority items first.
 
+**Update November 2021**: ShapeShift [fixed the
+issue](https://shapeshift.com/library/keepkey-firmware-update-6-5-1) in the KeepKey and donated the
+bounty to [Brink](https://brink.dev/) upon my request.
+
 I performed the attack successfully by interactively modifying Electrum, running on Bitcoin Testnet.
 
 # Preface
